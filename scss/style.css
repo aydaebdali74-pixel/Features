@@ -1,1 +1,168 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+section {
+  background-color: #616161;
+  text-align: center;
+  padding: 5px;
+  padding-top: 50px;
+  color: #ffffff;
+}
+
+#icon {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-size: 35px;
+  padding: 50px;
+  margin: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 40px;
+}
+
+#icon p {
+  font-size: 20px;
+  padding: 5px;
+}
+
+#icon #fast {
+  color: #ff9800;
+}
+
+#icon #loved {
+  color: #f44336;
+}
+
+#icon #clarity {
+  color: #d2be0e;
+}
+
+#icon #power {
+  color: #4caf50;
+}
+
+#icon #sharp {
+  color: #ffffff;
+}
+
+#icon #cloud {
+  color: #2196f3;
+}
+
+#icon #global {
+  color: #ffc107;
+}
+
+#icon #storage {
+  color: #00bcd4;
+}
+
+#icon #safe {
+  color: #fdf5e6;
+}
+
+#icon #stable {
+  color: #ff9800;
+}
+
+#icon #connected {
+  color: #757575;
+}
+
+#icon #hd {
+  color: #e91e63;
+}
+
+#table {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 80px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.pricing-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1000px;
+  margin: 0 auto;
+  gap: 24px;
+}
+
+.pricing-card {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-transition: 0.3s ease, -webkit-box-shadow 0.3s ease;
+  transition: 0.3s ease, -webkit-box-shadow 0.3s ease;
+  transition: 0.3s ease, box-shadow 0.3s ease;
+  transition: 0.3s ease, box-shadow 0.3s ease, -webkit-box-shadow 0.3s ease;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.pricing-card:hover {
+  /* transform: translateY(-10px)scale(1.03); */
+  -webkit-box-shadow: 0 10px 10px #888;
+          box-shadow: 0 10px 10px #888;
+}
+
+.pricing-title {
+  background-color: #303030;
+  color: white;
+  padding: 24px 40px;
+  font-size: 24px;
+}
+
+.pricing-features {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.pricing-features li {
+  padding: 16px;
+  border-bottom: 1px solid #eee;
+}
+
+.pricing-amount {
+  font-size: 32px;
+  padding: 20px 0 4px 0;
+}
+
+.pricing-period {
+  color: #888;
+  padding-bottom: 20px;
+}
+
+.pricing-button {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 25px;
+  background-color: #45a049;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.pricing-button:hover {
+  background-color: #888;
+}
+
+#pricing-titles {
+  background-color: #888;
+  padding: 16px 30px;
+  font-size: 24px;
+  color: #fff;
+}
+
+.button {
+  background-color: #f1f1f1;
+}
+/*# sourceMappingURL=style.css.map */

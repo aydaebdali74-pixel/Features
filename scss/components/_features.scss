@@ -1,0 +1,69 @@
+@import '../vars';
+section {
+    background-color: $bg-dark;
+    text-align: center;
+    padding: $p-5;
+    padding-top: $p-50;
+    color: $txt-white;
+}
+#icon {
+    flex-wrap: wrap;
+    font-size: 35px;
+    padding: $p-50;
+    margin: $m-5;
+    display: flex;
+    gap: 40px;
+    
+    p{
+        font-size: 20px;
+        padding: $p-5;
+    }
+
+    #fast {
+        color: $bg-fast ;
+    }
+
+    #loved {
+        color: $bg-loved;
+    }
+
+    #clarity {
+        color: $bg-Clarity;
+    }
+
+    #power {
+        color: $bg-Power;
+    }
+
+    #sharp {
+        color: $bg-Sharp;
+    }
+
+    #cloud {
+        color: $bg-Cloud;
+    }
+
+    #global {
+        color: $bg-Global;
+    }
+
+    #storage {
+        color: $bg-Storage;
+    }
+
+    #safe {
+        color: $bg-Safe;
+    }
+
+    #stable {
+        color: $bg-Stable;
+    }
+
+    #connected {
+        color: $bg-Connected;
+    }
+
+    #hd {
+        color: $bg-hd;
+    }
+}
