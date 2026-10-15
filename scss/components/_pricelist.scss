@@ -1,86 +1,84 @@
+@import '../base/vars';
+
+#pr {
+    margin-top: $m-30;
+    text-align: center;
+}
+
+#Pricing {
+    margin: $m-30;
+    font-size: 20px;
+}
+
 #table {
-            text-align: center;
-            margin-top: 40px;
-            margin-bottom: 80px;
-            flex-wrap: wrap;
-        }
+    text-align: center;
+    margin-top: $m-40;
+    background-color: $bg-Sharp;
+    color: $txt-black; 
+    gap: 20px;
+}
 
-        
 
-        .pricing-container {
-            display: flex;
-            max-width: 1000px;
-            margin: 0 auto;
-            gap: 24px;
 
-        }
+.pricing-container {
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+    gap: 24px;
 
-        .pricing-card {
-            flex: 1;
-transition: 0.3s ease, box-shadow 0.3s ease;
-            text-align: center;
-            border: 1px solid #ddd;
+}
 
-        }
-        .pricing-card:hover{
-            /* transform: translateY(-10px)scale(1.03); */
-            box-shadow: 0 10px 10px #888;
-        }
+.pricing-card {
+    flex: 1;
+    transition: 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
 
-        .pricing-title {
-            background-color: #303030;
-            color: white;
-            padding: 24px 40px;
-            font-size: 24px;
 
-        }
+}
 
-        .pricing-features {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-        }
 
-        .pricing-features li {
-            padding: 16px;
-            border-bottom: 1px solid #eee;
-        }
+.pricing-title {
+    background-color: $bg-dark;
+    color: $txt-white;
+    padding: 24px 40px;
+    font-size: 30px;
 
-        .pricing-amount {
-            font-size: 32px;
-            padding: 20px 0 4px 0;
-        }
+}
 
-        .pricing-period {
-            color: #888;
-            padding-bottom: 20px;
-        }
+.pricing-features {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
 
-        .pricing-button {
-            justify-content: center;
-            align-items: center;
-            margin-top: 25px;
-            background-color: #45a049;
-            color: white;
-            border: none;
-            padding: 12px 30px;
-            font-size: 16px;
-            cursor: pointer;
-            margin-bottom: 30px;
-        }
+.pricing-features li {
+    padding: 16px;
+    border-bottom: 1px solid #eee;
+}
 
-        .pricing-button:hover {
-            background-color: #888;
-        }
+.pricing-amount {
+    font-size: 32px;
+    padding: 20px 0 4px 0;
+}
 
-        #pricing-titles {
-            background-color: #888;
-            padding: 16px 30px;
-            font-size: 24px;
-            color: #fff;
+.pricing-button {
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    background-color: $txt-black;
+    color: $txt-white;
+    border: none;
+    padding: 12px $p-30;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: $m-30;
+}
 
-        }
+.pricing-button:hover {
+    background-color: $bg-bdownload;
+}
 
-        .button {
-            background-color: rgb(241, 241, 241);
-        }
+
+.button {
+    background-color: $bg-tablef;
+}
