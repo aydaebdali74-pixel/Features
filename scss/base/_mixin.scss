@@ -1,0 +1,26 @@
+// @mixin card-style{
+//     flex: 1;
+//     transition: 0.3s ease, box-shadow 0.3s ease;
+//     text-align: center;
+// }
+
+// .pricing-card{
+//     @include card-style;
+// }
+
+@mixin price-title {
+
+    color: $txt-white;
+    padding: 24px 40px;
+    font-size: $p-30;
+
+} 
+
+#pricing-title {
+    @include price-title;
+}
+
+#pricing-titles {
+    @include price-title;
+}
+

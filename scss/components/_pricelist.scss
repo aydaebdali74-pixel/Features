@@ -14,10 +14,11 @@
     text-align: center;
     margin-top: $m-40;
     background-color: $bg-Sharp;
-    color: $txt-black; 
+    color: $txt-black;
+    flex-wrap: wrap;
+    display: flex;
     gap: 20px;
 }
-
 
 
 .pricing-container {
@@ -27,22 +28,26 @@
     gap: 24px;
 
 }
-
-.pricing-card {
-    flex: 1;
+.pricing-card{
+   flex: 1;
     transition: 0.3s ease, box-shadow 0.3s ease;
-    text-align: center;
+    text-align: center; 
+}
+ 
 
+#pricing-title {
+    background-color: $bg-dark;
+    // color: $txt-white;
+    // padding: 24px 40px;
+    // font-size: 30px;
 
 }
 
-
-.pricing-title {
-    background-color: $bg-dark;
-    color: $txt-white;
-    padding: 24px 40px;
-    font-size: 30px;
-
+#pricing-titles {
+    background-color: $bg-loved;
+    // color: $txt-white;
+    // padding: 24px 40px;
+    // font-size: $p-30;
 }
 
 .pricing-features {

@@ -1,9 +1,25 @@
+#pricing-title {
+  color: #ffffff;
+  padding: 24px 40px;
+  font-size: 30px;
+}
+
+#pricing-titles {
+  color: #ffffff;
+  padding: 24px 40px;
+  font-size: 30px;
+}
+
 section {
   background-color: #616161;
   text-align: center;
   padding: 5px;
   padding-top: 50px;
   color: #ffffff;
+}
+
+#h2home {
+  font-size: 64px;
 }
 
 #Features {
@@ -20,7 +36,7 @@ section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 40px;
+  gap: 60px;
 }
 
 #icon p {
@@ -91,6 +107,11 @@ section {
   margin-top: 40px;
   background-color: #ffffff;
   color: #000000;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   gap: 20px;
 }
 
@@ -114,11 +135,12 @@ section {
   text-align: center;
 }
 
-.pricing-title {
+#pricing-title {
   background-color: #616161;
-  color: #ffffff;
-  padding: 24px 40px;
-  font-size: 30px;
+}
+
+#pricing-titles {
+  background-color: #f44336;
 }
 
 .pricing-features {
@@ -167,6 +189,20 @@ footer {
   padding: 64px 16px;
   margin-top: 64px;
   background-color: #f1f1f1;
-  font-size: 25px;
+  font-size: 20px;
+}
+
+@media (max-width: 600px) {
+  #table {
+    width: 100%;
+    background-color: #ffffff;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    display: block;
+    gap: 20px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
