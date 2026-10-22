@@ -1,15 +1,3 @@
-#pricing-title {
-  color: #ffffff;
-  padding: 24px 40px;
-  font-size: 30px;
-}
-
-#pricing-titles {
-  color: #ffffff;
-  padding: 24px 40px;
-  font-size: 30px;
-}
-
 section {
   background-color: #616161;
   text-align: center;
@@ -160,6 +148,14 @@ section {
 }
 
 .pricing-button {
+  background-color: #000000;
+  color: #f1f1f1;
+  border: none;
+  padding: 12px 30px;
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-transition: all .5s;
+  transition: all .5s;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -167,17 +163,19 @@ section {
       -ms-flex-align: center;
           align-items: center;
   margin-top: 25px;
-  background-color: #000000;
-  color: #ffffff;
-  border: none;
-  padding: 12px 30px;
-  font-size: 16px;
-  cursor: pointer;
   margin-bottom: 30px;
 }
 
 .pricing-button:hover {
   background-color: #b9b8b8;
+  color: #000000;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.pricing-button:hover {
+  background-color: #b9b8b8;
+  color: #000000;
 }
 
 .button {

@@ -1,5 +1,5 @@
 @import '../base/vars';
-
+@import '../base/mixin';
 #pr {
     margin-top: $m-30;
     text-align: center;
@@ -37,17 +37,11 @@
 
 #pricing-title {
     background-color: $bg-dark;
-    // color: $txt-white;
-    // padding: 24px 40px;
-    // font-size: 30px;
 
 }
 
 #pricing-titles {
     background-color: $bg-loved;
-    // color: $txt-white;
-    // padding: 24px 40px;
-    // font-size: $p-30;
 }
 
 .pricing-features {
@@ -65,24 +59,18 @@
     font-size: 32px;
     padding: 20px 0 4px 0;
 }
-
-.pricing-button {
+.pricing-button{
+    @include buttons(#000000,#f1f1f1,#b9b8b8,#000000);
     justify-content: center;
     align-items: center;
     margin-top: 25px;
-    background-color: $txt-black;
-    color: $txt-white;
-    border: none;
-    padding: 12px $p-30;
-    font-size: 16px;
-    cursor: pointer;
     margin-bottom: $m-30;
-}
 
+}
 .pricing-button:hover {
     background-color: $bg-bdownload;
+    color: $txt-black;
 }
-
 
 .button {
     background-color: $bg-tablef;
