@@ -7,24 +7,25 @@ section {
 }
 
 #h2home {
-  font-size: 64px;
+  font-size: 60px;
 }
 
 #Features {
   margin-top: 30px;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 #icon {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  font-size: 35px;
-  padding: 50px;
+  font-size: 64px;
+  padding-left: 20px;
+  padding-bottom: 50px;
   margin: 5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 60px;
+  gap: 70px;
 }
 
 #icon p {
@@ -125,10 +126,14 @@ section {
 
 #pricing-title {
   background-color: #616161;
+  color: #ffffff;
+  font-size: 24px;
 }
 
 #pricing-titles {
   background-color: #f44336;
+  color: #ffffff;
+  font-size: 24px;
 }
 
 .pricing-features {
@@ -154,8 +159,6 @@ section {
   padding: 12px 30px;
   font-size: 16px;
   cursor: pointer;
-  -webkit-transition: all .5s;
-  transition: all .5s;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -169,8 +172,6 @@ section {
 .pricing-button:hover {
   background-color: #b9b8b8;
   color: #000000;
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
 }
 
 .pricing-button:hover {
@@ -187,7 +188,31 @@ footer {
   padding: 64px 16px;
   margin-top: 64px;
   background-color: #f1f1f1;
+  font-size: 15px;
+}
+
+footer p {
+  color: #000000;
+}
+
+footer p a {
+  color: #000000;
+}
+
+footer p a:hover {
+  color: #2e8531;
+}
+
+.social {
   font-size: 20px;
+  margin-bottom: 5px;
+  color: #000000;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.social:hover {
+  color: #616161;
 }
 
 @media (max-width: 600px) {
@@ -202,5 +227,9 @@ footer {
     display: block;
     gap: 20px;
   }
+}
+
+* {
+  font-family: "Poppins",sans-serif;
 }
 /*# sourceMappingURL=style.css.map */

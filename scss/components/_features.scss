@@ -8,19 +8,21 @@ section {
     
 }
 #h2home{
-    font-size: 64px;
+    font-size: 60px;
 }
 #Features{
     margin-top: $m-30;
-    font-size: 20px;
+    font-size: 16px;
 }
 #icon {
     flex-wrap: wrap;
-    font-size: 35px;
-    padding: $p-50;
+    font-size: 64px ;
+    // padding: $p-30;
+    padding-left: $p-20;
+    padding-bottom: $p-50;
     margin: $m-5;
     display: flex;
-    gap: 60px;
+    gap: 70px;
     
     p{
         font-size: 20px;

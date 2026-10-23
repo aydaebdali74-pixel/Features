@@ -5,5 +5,26 @@ footer {
     padding: 64px 16px;
     margin-top: 64px;
     background-color: $bg-tablef;
+    font-size: 15px;
+    p{
+        color: $txt-black;
+        a{
+           color: $txt-black;
+        &:hover{
+            color: $bg-footer;
+        } 
+        }
+        
+    }
+    
+}
+.social{
     font-size: 20px;
+    margin-bottom: $m-5;
+    color: $txt-black;
+    transition: all .5s;
+    &:hover{
+        color:$bg-dark;
+        // transform: scale(1.1);
+    }
 }
